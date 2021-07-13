@@ -10,4 +10,4 @@ JSX Attributes
 
 onClick Event
 
-useState Hook is used in functional component to update data in a component.
+useState Hook is used in functional component to update data in a component. When the state is updated the component is re-rendered.
