@@ -21,8 +21,8 @@ function App(){
     <div className="heading">
       <h2>ReactJs</h2>
       {
-        details.map((detail)=>
-          <h2>{detail.name} {detail.phoneno} {detail.gmail}</h2>
+        details.map((detail,i)=>
+          <h2 key={i}>{detail.name} {detail.phoneno} {detail.gmail}</h2>
         )
       }
     </div>
